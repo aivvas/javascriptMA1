@@ -16,11 +16,21 @@ function h3heading(){
 h3heading();
 
 //Question 4
+function addclass(){
+    var heading = document.querySelector("heading");
+    heading.classlist.add("subheading");
+}
+addclass();
 
 //Question 5
 
 //Question 6
-
+var resultsContainer = document.querySelector("results");
+function resultsC(){
+    resultsContainer.innerHTML = "<p>New paragraph</p>";
+    resultsContainer.style.backgroundColor = "yellow";
+};
+resultsC();
 //Question 7
 
 //Question 8
